@@ -1,0 +1,13 @@
+WHAT IS DEVOPS
+
+devops IS NOT A TOOL or A PROGRAM. devops is A MINDSET/CONCEPT to develop software in a smart way.
+
+devops basically combines the development team and operation team to work together in sync to develop software seaminglessly.
+
+to be a devops engineer, we have to have knowledge of linux, networking, cloud, containers, kubernetes and many more things revolving around that area.
+
+one can not say he is a devops developer only after learning a software or completing a course. devops is more of a mindset to develop software smartly
+
+some important video:
+https://youtu.be/_Gpe1Zn-1fE (what is devops by hitesh chowdhury)
+https://youtu.be/7l_n97Mt0ko (devops developer roadmap)
