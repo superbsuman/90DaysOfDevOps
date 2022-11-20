@@ -1,0 +1,16 @@
+DAY 02
+
+lifecycle of a software
+
+idea => code => build => deploy => manage => learn.
+
+devops make sure that everything runs smoothly and we can release products with good SPEED and QUALITY
+
+to make less friction while developing a software => that's the job of a devops engineer
+
+devops is a combination of people, processes, operations to benefit the business
+
+
+IMPORTANT LINKS:
+
+https://www.youtube.com/watch?v=UbtB4sMaaNM (IBM => what is devops)
