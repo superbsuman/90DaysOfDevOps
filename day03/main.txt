@@ -1,0 +1,62 @@
+DAY 3
+
+learnt few new concepts, lets discuss one by one
+
+1. devops lifecycle
+    a. development
+    b. testing
+    c. integration
+    d. deployment
+    e. monitoring
+
+
+
+
+
+2. continuous testing
+
+old school way
+    give priority to UI => medium priority to API => less priority to UNIT TESTING
+
+modern way
+    give priority to UNIT TESTING => medium priority to API => less priority to UI
+
+this is because UI can break pretty easily as the ui is changing all the time
+if a feature can be testing in the backend then do so and for the UI just make sure everything is working properly, user can do everything without any issue
+
+whenever we write a business logic, basically interesting piece of code, then do unit test for that
+
+for the UI just test end to end experience
+
+
+
+
+3. continuous integration
+
+if it hurts do it more often
+
+if we merge ocassionally then we can get into what is called a merge hell. basically one person's code might not be compatible with other's thus breaking the application
+
+rather merge the code often and then the other person pulls the code and started working
+do this everyday, so that even if something breaks, we will know that yesterday's code is the problem and we can fix it
+
+do automation tests so that whenever someone merge something the test run and check if something is breaking or not.
+
+
+
+
+4. continuous monitoring
+
+tools:
+    a. nagios: monitors network services, cpu usage, disc usage, users
+    b. geneos: 3 tier architecture =>
+        instrumention layer (sits on the actual machine)
+        analysis and consolidation layer (do the computations)
+        visualization layer (frontend layer to display details)
+
+
+
+
+5. finops
+
+a tool to minimize the cost of the cloud infrastructure. It provides a model to reduce the cost of the cloud infrastructure with the same speed of the features.
