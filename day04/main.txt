@@ -1,0 +1,14 @@
+DAY - 4
+
+Learnt about agile and differences between agile and devops
+
+1. agile basically means deliver small continuous changes to the users, once a month or week rather than doing a big change once every year
+
+2. agile is to deliver features fast and devops is basically the method in which we develop the software fast
+
+3. agile focus on developer-user relation, whereas devops focus on developer-operators relation
+
+4. devops is internal development whereas agile is external development
+
+5. Its a good practice to unite these 2 things. Though these are 2 different things but they are very much related
+
