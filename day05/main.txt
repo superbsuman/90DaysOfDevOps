@@ -1,0 +1,38 @@
+DAY 05
+
+Learnt how the devops engineer work with an actual team in producing and maintaining a software.
+
+1. Planning
+    plan about the software with the development team and make sure that there is no misunderstanding of any kind of issue. the development team should be clear of the infrastructure that the software will be built upon.
+
+2. Development
+    Here you may/may not be involved as in this step the developers will code the software. but you can help them to better understand the infrastructure and the features that will be available.
+
+3. Build
+    build is basically building the software for testing purposes and further steps. building should be done by automation as this is the main purpose of devops
+
+4. Test
+    Proper testing should be done. this will ensure a bug free software can be presented for the client. 100% bug free is impossible but we try to reach as close as possible.
+
+5. Release
+    Release is to release the software in github or any kind of registry/repository for the further teams to work on
+
+6. Deploy
+    this is the end game of the software lifecycle. this will ultimately show the efforts and work that the team has been putting in the software.
+
+7. Operate
+    Here comes the main work. lets say the client reports that on weekends their website is working slow. so we have to see that what is wrong. maybe in weekends the traffic is high, so on weekends we can increase the number of servers and lower them in other days. plus we can have a loop between the operation and development, so if we find something wrong in operation, we can send them to the development team. also cheking servers, logs etc should be automated. the main aim is the tasks should be automated as much as possible.
+
+8. Monitoring
+    This step includes monitor server related things, like speed of api, traffic control etc, and if something goes wrong then fix it.
+    After this step, it is repeat from step 1 again, i.e., from planning.
+
+
+
+Continuous Delivery => Continuous Integration => Continuous Deployment
+
+Continuous Delivery: Plan > Code > Build > Test
+Continuous Integration: Plan > Code > Build > Test > Release
+Continuous Deployment: Deploy > Operate > Monitor
+
+the thing is we plan code build test. then we find if there is any error or not in complete Integration. If there is error then we go back to Continuous Delivery, if there is no error then we go to Continuous Deployment.
